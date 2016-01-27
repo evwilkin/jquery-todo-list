@@ -4,11 +4,14 @@ $(document).ready(function() {
 
 		var $newItem = $("input").val();
 		$("input").val('');
-		$("ul").append("<li><span>X </span>" + $newItem + "</li>");
+		$("ul").append("<li><span>X  </span>" + $newItem + "</li>");
+
 		
 	});
 
-	$("span").on("click", function() {
+	$("ul").on("click", "li", function() {
 		$(this).remove();
 	});
+
+	$("#sortable").sortable();
 });
