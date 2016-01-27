@@ -1,0 +1,42 @@
+h1 {
+	margin-top: 0;
+	background-color: sienna;
+	font-family: sans-serif;
+	font-size: 3em;
+	text-align: center;
+	padding: 15px;
+	border-bottom: 3px solid black;
+}
+
+#list {
+	background-color: #F8FF7D;
+	border: 1px solid black;
+	width: 800px;
+	margin: 0 auto;
+}
+
+button {
+	font-size: 16px;
+	display: inline;
+	margin: 0 auto;
+}
+
+input {
+	font-size: 16px;
+	display: inline;
+	margin: 0 auto;
+}
+
+li {
+	border-bottom: 1px lightseagreen solid;
+	font-size: 24px;
+	font-family: 'Rock Salt', cursive;
+	list-style-type: none;
+	margin-bottom: -5px;
+}
+
+span {
+	margin-left: -20px;
+	color: red;
+	font-size: 20px;
+}
