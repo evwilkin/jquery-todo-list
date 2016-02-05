@@ -1,3 +1,8 @@
+body {
+	background-image: url("../images/desk.jpg");
+	background-size: cover;
+}
+
 h1 {
 	margin-top: 0;
 	background-color: sienna;
@@ -44,6 +49,7 @@ li {
 	font-family: 'Rock Salt', cursive;
 	list-style-type: none;
 	margin-bottom: -5px;
+	cursor: move;
 }
 
 span {
@@ -74,4 +80,3 @@ h3 {
 	font-style: italic;
 	font-weight: lighter;
 }
-
